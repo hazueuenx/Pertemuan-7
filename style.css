@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(to right, #8fd4ff, white);
+  border-color: transparent;
+}
+
+.bg-blue-gradient-v {
+  background: linear-gradient(to bottom, #8fd4ff, white);
+  border-color: transparent;
+}
+
+.btn-primary,
+.bg-blue {
+  background: #8fd4ff;
+  border-color: transparent;
+}
+
+.bg-dark-blue {
+  background: #1f6fa8;
+  border-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.bg-dark-blue:hover {
+  transform: scale(1.05);
+  background: #1f6fa8;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  opacity: 50%;
+  background: #8fd4ff;
+  border-color: transparent;
+}
+
+footer {
+  margin-top: auto;
+}
